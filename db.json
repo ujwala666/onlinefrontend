@@ -1,0 +1,292 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "2",
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "rahul123",
+      "role": "user",
+      "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "3",
+      "name": "Priya",
+      "email": "priya@gmail.com",
+      "password": "priya123",
+      "role": "user",
+      "image": "https://cdn-icons-png.flaticon.com/512/6997/6997662.png"
+    },
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "password": "12345678",
+      "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "role": "user",
+      "id": "3QWyp2xgN9I"
+    },
+    {
+      "name": "john",
+      "email": "john12@gmail.com",
+      "password": "john@123",
+      "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "role": "user",
+      "id": "Vln0ntL9S6k"
+    },
+    {
+      "name": "john",
+      "email": "john123@gmail.com",
+      "password": "12345678",
+      "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "role": "user",
+      "id": "1ys3Y8VMiGw"
+    },
+    {
+      "name": "doe",
+      "email": "doe@gmail.com",
+      "password": "doe@123",
+      "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "role": "user",
+      "id": "xf7bzpANCx4"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "AI chatbot",
+      "category": "Artificial Intelligence",
+      "author": "Rahul",
+      "userId": 2,
+      "description": "An AI chatbot built using React and Gemini API.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+      "github": "https://github.com/example/aichatbot",
+      "demo": "https://example.vercel.app",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "title": "AI audit Website",
+      "category": "Web Development",
+      "author": "Priya",
+      "userId": 3,
+      "description": "Responsive website built with React and Bootstrap.",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800",
+      "github": "https://github.com/example/portfolio",
+      "demo": "https://portfolio.vercel.app",
+      "rating": 4.6
+    },
+    {
+      "id": "3",
+      "title": "Expense Tracker",
+      "category": "Web Development",
+      "author": "Rahul",
+      "userId": 2,
+      "description": "Track daily expenses with charts and reports.",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
+      "github": "https://github.com/example/expense",
+      "demo": "https://expense.vercel.app",
+      "rating": 4.5
+    },
+    {
+      "id": "4",
+      "title": "Food Delivery App",
+      "category": "Mobile App",
+      "author": "Priya",
+      "userId": 3,
+      "description": "Food ordering application with Firebase backend.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+      "github": "https://github.com/example/foodapp",
+      "demo": "https://foodapp.vercel.app",
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "title": "Movie Recommendation System",
+      "category": "Machine Learning",
+      "author": "Rahul",
+      "userId": 2,
+      "description": "Movie recommendation system using Python ML algorithms.",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800",
+      "github": "https://github.com/example/movie",
+      "demo": "https://movie.vercel.app",
+      "rating": 4.9
+    },
+    {
+      "title": "travel explorer",
+      "category": "Web Development",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200",
+      "github": "https://github.com/facebook/react",
+      "demo": "https://react.dev/",
+      "description": "this is app which we can forecast about the places for the travel",
+      "userId": "1ys3Y8VMiGw",
+      "author": "john",
+      "rating": 0,
+      "id": "5uDyHILMRRw"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "userId": 3,
+      "userName": "Priya",
+      "rating": 5,
+      "comment": "Excellent AI project with clean UI.",
+      "date": "19 Jun 2026"
+    },
+    {
+      "id": "2",
+      "projectId": "2",
+      "userId": 2,
+      "userName": "Rahul",
+      "rating": 4,
+      "comment": "Very responsive and attractive portfolio.",
+      "date": "18 Jun 2026"
+    },
+    {
+      "id": "3",
+      "projectId": "5",
+      "userId": 3,
+      "userName": "Priya",
+      "rating": 5,
+      "comment": "Recommendation accuracy is impressive.",
+      "date": "17 Jun 2026"
+    },
+    {
+      "projectId": "1",
+      "userId": "Vln0ntL9S6k",
+      "userName": "john",
+      "rating": 4,
+      "comment": "good",
+      "date": "6/19/2026",
+      "id": "_ob7hXpJJ5Q"
+    },
+    {
+      "projectId": "4",
+      "userId": "Vln0ntL9S6k",
+      "userName": "john",
+      "rating": 5,
+      "comment": "good",
+      "date": "6/19/2026",
+      "id": "M76nWN2WjUs"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "rating": 4,
+      "comment": "good",
+      "date": "6/19/2026",
+      "id": "SHB_BpRYOis"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "rating": 4,
+      "comment": "nice could do better",
+      "date": "6/19/2026",
+      "id": "dzyeGKAywCY"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "rating": 5,
+      "comment": "good",
+      "date": "6/19/2026",
+      "id": "ehoHpx1wQi4"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "rating": 5,
+      "comment": "nice",
+      "date": "6/19/2026",
+      "id": "JP_WiDeTtIw"
+    },
+    {
+      "projectId": "1",
+      "userId": "xf7bzpANCx4",
+      "userName": "doe",
+      "rating": 4,
+      "comment": "nice",
+      "date": "6/19/2026",
+      "id": "If1PPlOucBE"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "userId": 3,
+      "userName": "Priya",
+      "message": "Great work! Keep improving it.",
+      "date": "19 Jun 2026"
+    },
+    {
+      "id": "2",
+      "projectId": "2",
+      "userId": 2,
+      "userName": "Rahul",
+      "message": "Loved the design and animations.",
+      "date": "18 Jun 2026"
+    },
+    {
+      "id": "3",
+      "projectId": "5",
+      "userId": 3,
+      "userName": "Priya",
+      "message": "Very useful machine learning project.",
+      "date": "17 Jun 2026"
+    },
+    {
+      "projectId": "1",
+      "userId": "Vln0ntL9S6k",
+      "userName": "john",
+      "message": "great work",
+      "date": "6/19/2026",
+      "id": "TS6lJ6zLi7o"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "message": "good",
+      "date": "6/19/2026",
+      "id": "lJ2B-AVRKgg"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "message": "good",
+      "date": "6/19/2026",
+      "id": "u0OA6zrL014"
+    },
+    {
+      "projectId": "2",
+      "userId": "1ys3Y8VMiGw",
+      "userName": "john",
+      "message": "good",
+      "date": "6/19/2026",
+      "id": "LbTZJtIY3jc"
+    },
+    {
+      "projectId": "1",
+      "userId": "xf7bzpANCx4",
+      "userName": "doe",
+      "message": "good",
+      "date": "6/19/2026",
+      "id": "yPubdjOBWfY"
+    }
+  ]
+}
